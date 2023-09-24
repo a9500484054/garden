@@ -1,0 +1,84 @@
+
+    body {
+        background-color: #346b44 !important;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Стили для сада */
+    .garden {
+        background-color: #346b44;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        overflow-y: scroll;
+    }
+
+    /* Стили для деревьев */
+    .tree {
+        position: relative;
+        margin: 10px;
+        padding: 10px;
+        cursor: pointer;
+
+    }
+
+    /* Стили для яблок */
+    .apple {
+        position: absolute;
+        width: 5em;
+        height: 5em;
+        border-radius: 50%;
+        background-color: red;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .img-tree {
+        max-width: 100%;
+        width: 100px;
+    }
+    .my-badge {
+        position: absolute;
+        top: 0em;
+        right: 0em;
+        width: 2em;
+        height: 2em;
+        background-color: red;
+        color: #fff;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+    }
+
+    .control-panel {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        /* transform: translate(50%, 0); */
+        z-index: 9999999;
+    }
+
+    .garden-info {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+    .tree-info {
+        width: 300px;
+        position: fixed !important;
+        top: 200px;
+        left: 10px;
+    }
+
